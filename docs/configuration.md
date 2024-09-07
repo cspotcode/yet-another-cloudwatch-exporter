@@ -15,7 +15,7 @@ All flags may be prefixed with either one hypen or two (i.e., both `-config.file
 
 | Flag | Description | Default value |
 | --- | --- | --- |
-| `-listen-address` | Network address to listen to | `127.0.0.1:5000` |
+| `-listen-address` | Network address to listen to | `:5000` |
 | `-config.file` | Path to the configuration file | `config.yml` |
 | `-log.format` | Output format of log messages. One of: [logfmt, json] | `json` |
 | `-debug` | Log at debug level | `false` |
